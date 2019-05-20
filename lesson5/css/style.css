@@ -2,10 +2,11 @@ body {
     background-color: rgb(102, 255, 0)
 }
 p {
-text-indent:20px;
-font-size: 24px;
-color: black;
-font-style: oblique;
+    text-indent:20px;
+    font-size: 24px;
+    color: black;
+    font-style: oblique;
+    width: 80%;
 }
 h2 {
     text-align: center;
@@ -17,17 +18,18 @@ h1 {
     font-size: 42;
 }
 .contents {
- font-size: 22px;   
- font-style: italic;
- position: fixed; 
+    width: 15%;
+    font-size: 22px;   
+    font-style: italic;
+    position: fixed; 
     right: 10px; 
     top: 20%; 
     padding: 10px;
     background: #ffe;  
     border: 1px solid #333; 
    }
-   .text {
-    height: 1000px;
+/* .text {
+    height: 1000px; */
 }
 .preface {
     font-weight: 600;
